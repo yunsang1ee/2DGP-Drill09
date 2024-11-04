@@ -24,7 +24,7 @@ def reset_world():
     global running
     global boy
 
-    running = True
+    running =  True
 
     grass = Grass(y = 40)
     game_world.addObject(grass, 0)
